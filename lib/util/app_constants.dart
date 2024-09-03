@@ -142,6 +142,7 @@ class AppConstants {
   static const String advertisementListUri = '/api/v1/advertisement/list';
   static const String searchSuggestionsUri = '/api/v1/items/item-or-store-search';
   static const String searchPopularCategoriesUri = '/api/v1/categories/popular';
+  static const String firebaseAuthVerify = '/api/v1/auth/firebase-verify-token';
 
   ///Subscription
   static const String businessPlanUri = '/api/v1/vendor/business_plan';

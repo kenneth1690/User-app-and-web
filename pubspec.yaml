@@ -61,6 +61,7 @@ dependencies:
   smooth_page_indicator: ^1.1.0
   chewie: ^1.8.1
   location: ^7.0.0
+  firebase_auth: ^4.20.0
 
 dev_dependencies:
   flutter_test:
