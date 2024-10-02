@@ -48,22 +48,24 @@ Future<void> main() async {
     return true;
   };*/
 
-  if(GetPlatform.isWeb){
+ if(GetPlatform.isWeb){
     await Firebase.initializeApp(options: const FirebaseOptions(
-        apiKey: "AIzaSyDFN-73p8zKVZbA0i5DtO215XzAb-xuGSE",
-        authDomain: "ammart-8885e.firebaseapp.com",
-        projectId: "ammart-8885e",
-        storageBucket: "ammart-8885e.appspot.com",
-        messagingSenderId: "1000163153346",
-        appId: "1:1000163153346:web:4f702a4b5adbd5c906b25b",
+        apiKey: "AIzaSyCf8LpLH4EKqGr4KzZ84gRafInwpFTdqr8",
+        authDomain: "kimii-d7954.firebaseapp.com",
+        databaseURL: "https://kimii-d7954.firebaseio.com",
+        projectId: "kimii-d7954",
+        storageBucket: "kimii-d7954.appspot.com",
+        messagingSenderId: "582415906606",
+        appId: "1:582415906606:web:f3d5d21df3b7b47921ecbf",
+        measurementId: "G-4X15EKMV26"
     ));
   } else if(GetPlatform.isAndroid) {
     await Firebase.initializeApp(
       options: const FirebaseOptions(
-        apiKey: "AIzaSyCic6Mw3RRPFcimXhwGidwhCN0tXY7HFFc",
-        appId: "1:1000163153346:android:9d8caf29b912e11606b25b",
-        messagingSenderId: "1000163153346",
-        projectId: "ammart-8885e",
+        apiKey: "AIzaSyCf8LpLH4EKqGr4KzZ84gRafInwpFTdqr8",
+        appId: "1:582415906606:web:f3d5d21df3b7b47921ecbf",
+        messagingSenderId: "582415906606",
+        projectId: "kimii-d7954",
       ),
     );
   } else {
