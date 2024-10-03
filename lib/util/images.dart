@@ -1,5 +1,5 @@
 class Images {
-  static const String logo = 'assets/image/logo.png';
+  static const String logo = 'assets/image/app-logo.png';
   static const String placeholder = 'assets/image/placeholder.jpg';
   static const String notificationPlaceholder = 'assets/image/notification_placeholder.jpg';
   static const String arabic = 'assets/image/arabic.png';
@@ -274,6 +274,8 @@ class Images {
   static const String addressSelect = 'assets/image/address_select.png';
   static const String highlightIcon = 'assets/image/highlight_icon.png';
   static const String languageBackground = 'assets/image/language_bg.png';
+  static const String chatSupport = 'assets/image/chat_support.png';
+  static const String suggestionMessage = 'assets/image/suggestion_message.png';
 
 
   static const String referBg = 'assets/image/refer_bg.svg';
